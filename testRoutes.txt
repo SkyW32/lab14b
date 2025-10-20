@@ -1,0 +1,9 @@
+http://localhost:8080/f1/races/2005/2007
+http://localhost:8080/f1/races/2008/2008
+http://localhost:8080/f1/races/2010/2012
+http://localhost:8080/f1/drivers/name/sch/limit/5
+http://localhost:8080/f1/drivers/name/ham/limit/5
+http://localhost:8080/f1/drivers/name/rai/limit/3
+http://localhost:8080/f1/qualifying/12
+http://localhost:8080/f1/qualifying/25
+http://localhost:8080/f1/qualifying/100
