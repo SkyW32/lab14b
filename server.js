@@ -9,7 +9,7 @@ const supabase = createClient(
   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpbGtteGtuaWVycHFta2tpZWJiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjAwODc1NDQsImV4cCI6MjA3NTY2MzU0NH0.ly93xYyP5Dl-qS_GRTKVDrtFMjGGfJlojLOSK9H83Ys"
 );
 
-app.get("/", (req, res) => res.json({ message: "F1 API is running 🚀" }));
+app.get("/", (req, res) => res.json({ message: "F1 API is running!" }));
 
 app.get("/api/circuits", async (req, res) => {
   const { data, error } = await supabase.from("circuits").select("*");
