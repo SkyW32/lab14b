@@ -34,7 +34,7 @@ Search for drivers whose surname begins with the specified prefix.
 Route: `/f1/results/:race`  
 Returns results for a specific race, including driver and constructor information.
 
-- Example: [Results for race ID 1106](https://four513assignment1-iqjw.onrender.com/api/results/700)
+- Example: [Results for race ID 700](https://four513assignment1-iqjw.onrender.com/api/results/700)
 
 ---
 
