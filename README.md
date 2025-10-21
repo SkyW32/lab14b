@@ -8,7 +8,7 @@ The API is hosted on Render, and was developed as part of COMP 4513 – Web Serv
 
 Live Deployment
 
-Render URL: [Home](https://four513assignment1-iqjw.onrender.com))
+Render URL: [Home](https://four513assignment1-iqjw.onrender.com)
 
 --- 
 
@@ -34,7 +34,7 @@ Search for drivers whose surname begins with the specified prefix.
 Route: `/f1/results/:race`  
 Returns results for a specific race, including driver and constructor information.
 
-- Example: [Results for race ID 1106](https://four513assignment1-iqjw.onrender.com/api/results/1106)
+- Example: [Results for race ID 1106](https://four513assignment1-iqjw.onrender.com/api/results/700)
 
 ---
 
