@@ -6,6 +6,37 @@ The API is hosted on Render, and was developed as part of COMP 4513 – Web Serv
 
 ---
 
+## Quick Links
+[Circuits](https://four513assignment1-iqjw.onrender.com/api/circuits)
+[CircuitsMonza](https://four513assignment1-iqjw.onrender.com/api/circuits/monza)
+[CircuitsCalgary](https://four513assignment1-iqjw.onrender.com/api/circuits/calgary)
+[Constructors](https://four513assignment1-iqjw.onrender.com/api/constructors)
+[ConstructorsFerrary](https://four513assignment1-iqjw.onrender.com/api/constructors/ferrari)
+[Drivers](https://four513assignment1-iqjw.onrender.com/api/drivers)
+[DriversNorris](https://four513assignment1-iqjw.onrender.com/api/drivers/Norris)
+[Driversnorris](https://four513assignment1-iqjw.onrender.com/api/drivers/norris)
+[Driversconnolly](https://four513assignment1-iqjw.onrender.com/api/drivers/connolly)
+[DriversSch](https://four513assignment1-iqjw.onrender.com/api/drivers/search/sch)
+[Driversxxxxx](https://four513assignment1-iqjw.onrender.com/api/drivers/search/xxxxx)
+[DriversbyRace](https://four513assignment1-iqjw.onrender.com/api/drivers/race/1069)
+[Races](https://four513assignment1-iqjw.onrender.com/api/races/1034)
+[RacesSeason](https://four513assignment1-iqjw.onrender.com/api/races/season/20210)
+[RacesSeason](https://four513assignment1-iqjw.onrender.com/api/races/season/1800)
+[RacesSeason](https://four513assignment1-iqjw.onrender.com/api/races/season/2020/5)
+[RacesSeason](https://four513assignment1-iqjw.onrender.com/api/races/season/2020/100)
+[RacesCircuits](https://four513assignment1-iqjw.onrender.com/api/races/circuits/7)
+[RacesSeason&Circuits](https://four513assignment1-iqjw.onrender.com/api/races/circuits/7/season/2015/2022)
+[Races](https://four513assignment1-iqjw.onrender.com/api/races/circuits/7/season/2022/2022)
+[Results](https://four513assignment1-iqjw.onrender.com/api/results/1106)
+[Results](https://four513assignment1-iqjw.onrender.com/api/results/driver/max_verstappen)
+[Results](https://four513assignment1-iqjw.onrender.com/api/results/driver/connolly)
+[Results](https://four513assignment1-iqjw.onrender.com/api/results/drivers/sainz/seasons/2021/2022)
+[Results](https://four513assignment1-iqjw.onrender.com/api/results/drivers/sainz/seasons/2035/2022)
+[Results](https://four513assignment1-iqjw.onrender.com/api/qualifying/1106)
+[Results](https://four513assignment1-iqjw.onrender.com/api/standings/drivers/1120)
+[Results](https://four513assignment1-iqjw.onrender.com/api/standings/constructors/1120)
+[Results](https://four513assignment1-iqjw.onrender.com/api/standings/constructors/asds)
+
 Live Deployment
 
 Render URL: [Home](https://four513assignment1-iqjw.onrender.com)
