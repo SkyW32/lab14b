@@ -18,7 +18,7 @@ Render URL: [Home](https://four513assignment1-iqjw.onrender.com))
 Route: `/f1/races/:start/:end`  
 Returns all races between the given start and end years (inclusive).
 
-- Example: [Races 2005–2007](https://four513assignment1-iqjw.onrender.com/f1/races/2005/2007)
+- Example: [Races 2005–2007](https://four513assignment1-iqjw.onrender.com/api/races/2005/2007)
 
 ---
 
@@ -26,7 +26,7 @@ Returns all races between the given start and end years (inclusive).
 Route: `/f1/drivers/name/:prefix/limit/:num`  
 Search for drivers whose surname begins with the specified prefix.
 
-- Example: [Drivers with “sch” prefix, limit 12](https://four513assignment1-iqjw.onrender.com/f1/drivers/name/sch/limit/12)
+- Example: [Drivers with “sch” prefix, limit 12](https://four513assignment1-iqjw.onrender.com/api/drivers/name/sch/limit/12)
 
 ---
 
@@ -34,7 +34,7 @@ Search for drivers whose surname begins with the specified prefix.
 Route: `/f1/results/:race`  
 Returns results for a specific race, including driver and constructor information.
 
-- Example: [Results for race ID 1106](https://four513assignment1-iqjw.onrender.com/f1/results/1106)
+- Example: [Results for race ID 1106](https://four513assignment1-iqjw.onrender.com/api/results/1106)
 
 ---
 
@@ -42,7 +42,7 @@ Returns results for a specific race, including driver and constructor informatio
 Route: `/f1/status`  
 Lists all race status codes (e.g., Finished, Retired, Accident).
 
-- Example: [Race Status List](https://four513assignment1-iqjw.onrender.com/f1/status)
+- Example: [Race Status List](https://four513assignment1-iqjw.onrender.com/api/status)
 
 ---
 
@@ -50,7 +50,7 @@ Lists all race status codes (e.g., Finished, Retired, Accident).
 Route: `/f1/seasons`  
 Returns all available seasons in the dataset.
 
-- Example: [Seasons List](https://four513assignment1-iqjw.onrender.com/f1/seasons)
+- Example: [Seasons List](https://four513assignment1-iqjw.onrender.com/api/seasons)
 
 ---
 
@@ -80,7 +80,7 @@ Returns all available seasons in the dataset.
    ```
 
 5. **Test locally:**  
-   Visit [http://localhost:8080/f1/status](http://localhost:8080/f1/status)
+   Visit [http://localhost:8080/f1/status](http://localhost:8080/api/status)
 
 ---
 
