@@ -1,60 +1,60 @@
-# 🏎️ Formula 1 REST API — COMP 4513 Assignment 1
+Formula 1 REST API — COMP 4513 Assignment 1
 
-This project is a Formula 1 REST API built using **Node.js**, **Express**, and **Supabase**.  
+This project is a Formula 1 REST API built using Node.js, Express, and Supabase. It was built using our lab14b as a skeleton, hence the appearance of "lab14b" here and there.  
 It provides multiple endpoints to retrieve F1 data such as races, results, drivers, and constructors.  
-The API is hosted on **Render** and was developed as part of **COMP 4513 – Web Services and Cloud-Based Systems**.
+The API is hosted on Render, and was developed as part of COMP 4513 – Web Services and Cloud-Based Systems.
 
 ---
 
-## 🌐 Live Deployment
+Live Deployment
 
-🔗 **Render URL:** [https://f1-api-lab14b.onrender.com](https://f1-api-lab14b.onrender.com)
+Render URL: [Home](https://four513assignment1-iqjw.onrender.com))
 
----
+--- 
 
-## 🚦 API Routes and Examples
+**API Routes and Examples**
 
-### 🏁 Races
-**Route:** `/f1/races/:start/:end`  
+## Races
+Route: `/f1/races/:start/:end`  
 Returns all races between the given start and end years (inclusive).
 
-- Example: [Races 2005–2007](https://f1-api-lab14b.onrender.com/f1/races/2005/2007)
+- Example: [Races 2005–2007](https://four513assignment1-iqjw.onrender.com/f1/races/2005/2007)
 
 ---
 
-### 🧍 Drivers
-**Route:** `/f1/drivers/name/:prefix/limit/:num`  
+## Drivers
+Route: `/f1/drivers/name/:prefix/limit/:num`  
 Search for drivers whose surname begins with the specified prefix.
 
-- Example: [Drivers with “sch” prefix, limit 12](https://f1-api-lab14b.onrender.com/f1/drivers/name/sch/limit/12)
+- Example: [Drivers with “sch” prefix, limit 12](https://four513assignment1-iqjw.onrender.com/f1/drivers/name/sch/limit/12)
 
 ---
 
-### 🏆 Results
-**Route:** `/f1/results/:race`  
+## Results
+Route: `/f1/results/:race`  
 Returns results for a specific race, including driver and constructor information.
 
-- Example: [Results for race ID 1106](https://f1-api-lab14b.onrender.com/f1/results/1106)
+- Example: [Results for race ID 1106](https://four513assignment1-iqjw.onrender.com/f1/results/1106)
 
 ---
 
-### 🧭 Status
-**Route:** `/f1/status`  
+## Status
+Route: `/f1/status`  
 Lists all race status codes (e.g., Finished, Retired, Accident).
 
-- Example: [Race Status List](https://f1-api-lab14b.onrender.com/f1/status)
+- Example: [Race Status List](https://four513assignment1-iqjw.onrender.com/f1/status)
 
 ---
 
-### 📅 Seasons
-**Route:** `/f1/seasons`  
+## Seasons
+Route: `/f1/seasons`  
 Returns all available seasons in the dataset.
 
-- Example: [Seasons List](https://f1-api-lab14b.onrender.com/f1/seasons)
+- Example: [Seasons List](https://four513assignment1-iqjw.onrender.com/f1/seasons)
 
 ---
 
-## ⚙️ How to Run Locally
+## How to Run Locally
 
 1. **Clone the repository:**
    ```bash
@@ -84,7 +84,7 @@ Returns all available seasons in the dataset.
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Category | Technology |
 |-----------|-------------|
@@ -95,7 +95,7 @@ Returns all available seasons in the dataset.
 
 ---
 
-## 📜 Project Structure
+## Project Structure
 
 ```
 lab14b/
@@ -111,18 +111,18 @@ lab14b/
 
 ---
 
-## 👨‍💻 Author Information
+## Author
 
 **Author:** Skylar Wiltse  
 **Course:** COMP 4513 – Web Services and Cloud-Based Systems  
-**Instructor:** Michael Green  
+**Instructor:** Randy Connolly
 **Institution:** Mount Royal University  
-**Date:** October 2025
+**Date:** October 20 2025
 
 ---
 
-## 🏁 Notes
+## Other Notes
 
-- This API was built for educational purposes as part of COMP 4513.  
+- This API was built for an assignment as part of COMP 4513.  
 - All F1 data is stored and managed in Supabase tables with RLS (Row Level Security) enabled.  
 - Environment variables are used to protect database credentials.
