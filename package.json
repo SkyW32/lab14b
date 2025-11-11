@@ -2,14 +2,15 @@
   "type": "module",
   "dependencies": {
     "@supabase/supabase-js": "^2.75.0",
+    "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "sqlite3": "^5.1.7"
   },
   "name": "lab14b",
   "version": "1.0.0",
-  "main": "lite-api-art.js",
-  
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
